@@ -1,0 +1,10 @@
+numpy
+pandas
+lxml
+openpyxl
+scikit-learn
+matplotlib
+pytest
+watchdog[watchmedo]
+pytest-watch
+pytest-html

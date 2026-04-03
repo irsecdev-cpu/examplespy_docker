@@ -1,0 +1,62 @@
+services:
+  # Main application service (Plots generation)
+  app:
+    build: .
+    image: examplespy-app:v1.0
+    container_name: py_app_runner
+    # SECURITY: Prevent privilege escalation
+    security_opt:
+      - no-new-privileges:true
+    # SECURITY: Resource limits to prevent DoS (Denial of Service)
+    deploy:
+      resources:
+        limits:
+          cpus: '0.50'
+          memory: 512M
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python test1.py
+    # Automated health check verifying if output.png is generated and not empty
+    healthcheck:
+      test: ["CMD-SHELL", "test -s /app/output.png || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 5s
+    # Native Docker Compose Watch (v2.22+)
+    develop:
+      watch:
+        - action: sync
+          path: .
+          target: /app
+          ignore:
+            - .git/
+            - __pycache__/
+            - report.html
+
+  # Dedicated service for XML to Excel conversion
+  converter:
+    image: examplespy-app:v1.0
+    # SECURITY: Hardening the container
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: python xml_to_xls.py
+
+  # Real-time automated testing service using pytest-watch
+  test-auto:
+    image: examplespy-app:v1.0
+    # SECURITY: Running tests in a restricted environment
+    security_opt:
+      - no-new-privileges:true
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Runs ptw (pytest-watch) to generate an HTML report on every change
+    command: ptw . -- --html=report.html --self-contained-html

@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<nsSAFT:AuditFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nsSAFT="mfp:anaf:dgti:d406:declaratie:v1" xsi:schemaLocation="urn:StandardAuditFile-Taxation-Financial:RO Romanian_SAF-T_Financial_Schema_v_2.3.xsd">
+
+  <nsSAFT:Header>
+
+    <nsSAFT:AuditFileVersion>2.0</nsSAFT:AuditFileVersion>
+
+    <nsSAFT:AuditFileCountry>RO</nsSAFT:AuditFileCountry>
+
+    <nsSAFT:AuditFileRegion>RO-AB</nsSAFT:AuditFileRegion>
+
+    <nsSAFT:AuditFileDateCreated>2025-02-25</nsSAFT:AuditFileDateCreated>
+
+    <nsSAFT:SoftwareCompanyName>XXXXXXXXX</nsSAFT:SoftwareCompanyName>
+
+    <nsSAFT:SoftwareID>XXXXXXXXXX</nsSAFT:SoftwareID>
+
+    <nsSAFT:SoftwareVersion>XXXXXXX</nsSAFT:SoftwareVersion>
+
+    <nsSAFT:Company>
+
+      <nsSAFT:RegistrationNumber>XXXXXXXX</nsSAFT:RegistrationNumber>
+
+      <nsSAFT:Name>XXXXXXX</nsSAFT:Name>
+
+      <nsSAFT:Address>
+
+        <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+        <nsSAFT:Number>XX</nsSAFT:Number>
+
+        <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+        <nsSAFT:Building>XX</nsSAFT:Building>
+
+        <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+        <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+        <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+        <nsSAFT:Country>RO</nsSAFT:Country>
+
+        <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+      </nsSAFT:Address>
+
+      <nsSAFT:Contact>
+
+        <nsSAFT:ContactPerson>
+
+          <nsSAFT:Title>XXXXX</nsSAFT:Title>
+
+          <nsSAFT:FirstName>XXXXX</nsSAFT:FirstName>
+
+          <nsSAFT:Initials>XXXXX</nsSAFT:Initials>
+
+          <nsSAFT:LastNamePrefix>XXXXX</nsSAFT:LastNamePrefix>
+
+          <nsSAFT:LastName>XXXXXXX</nsSAFT:LastName>
+
+          <nsSAFT:BirthName>XXXXXXX</nsSAFT:BirthName>
+
+          <nsSAFT:Salutation>XXXXXXX</nsSAFT:Salutation>
+
+          <nsSAFT:OtherTitles>XXXXXXX</nsSAFT:OtherTitles>
+
+        </nsSAFT:ContactPerson>
+
+        <nsSAFT:Telephone>XXXXXX</nsSAFT:Telephone>
+
+        <nsSAFT:Fax>XXXXX</nsSAFT:Fax>
+
+      </nsSAFT:Contact>
+
+      <nsSAFT:TaxRegistration>
+
+        <nsSAFT:TaxRegistrationNumber>XXXX</nsSAFT:TaxRegistrationNumber>
+
+        <nsSAFT:TaxType>XXXX</nsSAFT:TaxType>
+
+        <nsSAFT:TaxNumber>XXXX</nsSAFT:TaxNumber>
+
+        <nsSAFT:TaxAuthority>ANAF</nsSAFT:TaxAuthority>
+
+        <nsSAFT:TaxVerificationDate>xxx</nsSAFT:TaxVerificationDate>
+
+      </nsSAFT:TaxRegistration>
+
+      <nsSAFT:BankAccount>
+
+        <nsSAFT:IBANNumber>XXXXXXXXXX</nsSAFT:IBANNumber>
+
+      </nsSAFT:BankAccount>
+
+    </nsSAFT:Company>
+
+    <nsSAFT:DefaultCurrencyCode>RON</nsSAFT:DefaultCurrencyCode>
+
+    <nsSAFT:SelectionCriteria>
+
+      <nsSAFT:TaxReportingJurisdiction>1</nsSAFT:TaxReportingJurisdiction>
+
+      <nsSAFT:CompanyEntity>1</nsSAFT:CompanyEntity>
+
+      <nsSAFT:SelectionStartDate>1</nsSAFT:SelectionStartDate>
+
+      <nsSAFT:SelectionEndDate>1</nsSAFT:SelectionEndDate>
+
+      <nsSAFT:PeriodStart>1</nsSAFT:PeriodStart>
+
+      <nsSAFT:PeriodStartYear>2025</nsSAFT:PeriodStartYear>
+
+      <nsSAFT:PeriodEnd>1</nsSAFT:PeriodEnd>
+
+      <nsSAFT:PeriodEndYear>2025</nsSAFT:PeriodEndYear>
+
+    </nsSAFT:SelectionCriteria>
+
+    <nsSAFT:HeaderComment>L</nsSAFT:HeaderComment>
+
+    <nsSAFT:SegmentIndex>1</nsSAFT:SegmentIndex>
+
+    <nsSAFT:TotalSegmentsInsequence>1</nsSAFT:TotalSegmentsInsequence>
+
+    <nsSAFT:TaxAccountingBasis>A</nsSAFT:TaxAccountingBasis>
+
+  </nsSAFT:Header>
+
+  <nsSAFT:MasterFiles>
+
+    <nsSAFT:GeneralLedgerAccounts>
+
+      <nsSAFT:Account>
+
+        <nsSAFT:AccountID>1011</nsSAFT:AccountID>
+
+        <nsSAFT:AccountDescription>Capital subscris nevarsat</nsSAFT:AccountDescription>
+
+        <nsSAFT:StandardAccountID>101.01</nsSAFT:StandardAccountID>
+
+        <nsSAFT:GroupingCategory>xxxx</nsSAFT:GroupingCategory>
+
+        <nsSAFT:GroupingCode>yyyyy</nsSAFT:GroupingCode>
+
+        <nsSAFT:AccountType>Pasiv</nsSAFT:AccountType>
+
+        <nsSAFT:AccountCreationDate>xxxxx</nsSAFT:AccountCreationDate>
+
+        <nsSAFT:OpeningDebitBalance>xxx</nsSAFT:OpeningDebitBalance>
+
+        <nsSAFT:OpeningCreditBalance>zzzz</nsSAFT:OpeningCreditBalance>
+
+        <nsSAFT:ClosingDebitBalance>sssss</nsSAFT:ClosingDebitBalance>
+
+        <nsSAFT:ClosingCreditBalance>aaaa</nsSAFT:ClosingCreditBalance>
+
+      </nsSAFT:Account>
+
+    </nsSAFT:GeneralLedgerAccounts>
+
+    <nsSAFT:Taxonomies>
+
+      <nsSAFT:Taxonomy>
+
+        <nsSAFT:TaxonomyReference>XX</nsSAFT:TaxonomyReference>
+
+        <nsSAFT:TaxonomyElement>
+
+          <nsSAFT:TaxonomyCode>XX</nsSAFT:TaxonomyCode>
+
+          <nsSAFT:TaxonomyClusterID>XX</nsSAFT:TaxonomyClusterID>
+
+          <nsSAFT:TaxonomyClusterContextID>XX</nsSAFT:TaxonomyClusterContextID>
+
+          <nsSAFT:AccountID>XX</nsSAFT:AccountID>
+
+        </nsSAFT:TaxonomyElement>
+
+      </nsSAFT:Taxonomy>
+
+    </nsSAFT:Taxonomies>
+
+    <nsSAFT:Customers>
+
+      <nsSAFT:Customer>
+
+        <nsSAFT:CompanyStructure>
+
+          <nsSAFT:RegistrationNumber>XXXXXXXXX</nsSAFT:RegistrationNumber>
+
+          <nsSAFT:Name>XXXXXX</nsSAFT:Name>
+
+          <nsSAFT:Address>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:Address>
+
+          <nsSAFT:TaxRegistration>
+
+            <nsSAFT:TaxRegistrationNumber>XXXX</nsSAFT:TaxRegistrationNumber>
+
+            <nsSAFT:TaxType>XXXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxNumber>XXXX</nsSAFT:TaxNumber>
+
+            <nsSAFT:TaxAuthority>ANAF</nsSAFT:TaxAuthority>
+
+            <nsSAFT:TaxVerificationDate>xxx</nsSAFT:TaxVerificationDate>
+
+          </nsSAFT:TaxRegistration>
+
+        </nsSAFT:CompanyStructure>
+
+        <nsSAFT:CustomerID>XXXXXXX</nsSAFT:CustomerID>
+
+        <nsSAFT:AccountID>XXXXX</nsSAFT:AccountID>
+
+        <nsSAFT:OpeningDebitBalance>0.02</nsSAFT:OpeningDebitBalance>
+
+        <nsSAFT:OpeningCreditBalance>0.02</nsSAFT:OpeningCreditBalance>
+
+        <nsSAFT:ClosingDebitBalance>0.02</nsSAFT:ClosingDebitBalance>
+
+        <nsSAFT:ClosingCreditBalance>0.02</nsSAFT:ClosingCreditBalance>
+
+      </nsSAFT:Customer>
+
+    </nsSAFT:Customers>
+
+    <nsSAFT:Suppliers>
+
+      <nsSAFT:Supplier>
+
+        <nsSAFT:CompanyStructure>
+
+          <nsSAFT:RegistrationNumber>XXXXXX</nsSAFT:RegistrationNumber>
+
+          <nsSAFT:Name>XXXXXXXXX</nsSAFT:Name>
+
+          <nsSAFT:Address>
+
+            <nsSAFT:Number>XXX</nsSAFT:Number>
+
+            <nsSAFT:City>BUCURESTI SECTORUL 1</nsSAFT:City>
+
+            <nsSAFT:Region>RO-B</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:Address>
+
+          <nsSAFT:TaxRegistration>
+
+            <nsSAFT:TaxRegistrationNumber>XXXX</nsSAFT:TaxRegistrationNumber>
+
+            <nsSAFT:TaxType>XXXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxNumber>XXXX</nsSAFT:TaxNumber>
+
+            <nsSAFT:TaxAuthority>ANAF</nsSAFT:TaxAuthority>
+
+            <nsSAFT:TaxVerificationDate>xxx</nsSAFT:TaxVerificationDate>
+
+          </nsSAFT:TaxRegistration>
+
+        </nsSAFT:CompanyStructure>
+
+        <nsSAFT:SupplierID>XXXXXX</nsSAFT:SupplierID>
+
+        <nsSAFT:AccountID>XXXX</nsSAFT:AccountID>
+
+        <nsSAFT:OpeningDebitBalance>0.02</nsSAFT:OpeningDebitBalance>
+
+        <nsSAFT:OpeningCreditBalance>0.02</nsSAFT:OpeningCreditBalance>
+
+        <nsSAFT:ClosingDebitBalance>0.02</nsSAFT:ClosingDebitBalance>
+
+        <nsSAFT:ClosingCreditBalance>0.02</nsSAFT:ClosingCreditBalance>
+
+      </nsSAFT:Supplier>
+
+    </nsSAFT:Suppliers>
+
+    <nsSAFT:TaxTable>
+
+      <nsSAFT:TaxTableEntry>
+
+        <nsSAFT:TaxType>XXXX</nsSAFT:TaxType>
+
+        <nsSAFT:Description>Taxa pe valoarea adaugata</nsSAFT:Description>
+
+        <nsSAFT:TaxCodeDetails>
+
+          <nsSAFT:TaxCode>XXXXX</nsSAFT:TaxCode>
+
+          <nsSAFT:EffectiveDate>XXXXX</nsSAFT:EffectiveDate>
+
+          <nsSAFT:ExpirationDate>XXXXX</nsSAFT:ExpirationDate>
+
+          <nsSAFT:Description>Achizitii de bunuri si servicii taxabile cu cota de 19%</nsSAFT:Description>
+
+          <nsSAFT:TaxPercentage>19</nsSAFT:TaxPercentage>
+
+          <nsSAFT:FlatTaxRate>
+
+            <nsSAFT:Amount>19</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>19</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>19</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>19</nsSAFT:ExchangeRate>
+
+          </nsSAFT:FlatTaxRate>
+
+          <nsSAFT:BaseRate>1</nsSAFT:BaseRate>
+
+          <nsSAFT:Country>RO</nsSAFT:Country>
+
+          <nsSAFT:Region>RO</nsSAFT:Region>
+
+        </nsSAFT:TaxCodeDetails>
+
+      </nsSAFT:TaxTableEntry>
+
+    </nsSAFT:TaxTable>
+
+    <nsSAFT:UOMTable>
+
+      <nsSAFT:UOMTableEntry>
+
+        <nsSAFT:UnitOfMeasure>H87</nsSAFT:UnitOfMeasure>
+
+        <nsSAFT:Description>bucata</nsSAFT:Description>
+
+      </nsSAFT:UOMTableEntry>
+
+    </nsSAFT:UOMTable>
+
+    <nsSAFT:AnalysisTypeTable>
+
+      <nsSAFT:AnalysisTypeTableEntry>
+
+        <nsSAFT:AnalysisType>1</nsSAFT:AnalysisType>
+
+        <nsSAFT:AnalysisTypeDescription>JURNALE</nsSAFT:AnalysisTypeDescription>
+
+        <nsSAFT:AnalysisID>Facturi furnizori</nsSAFT:AnalysisID>
+
+        <nsSAFT:AnalysisIDDescription>Intrari - facturi furnizori</nsSAFT:AnalysisIDDescription>
+
+      </nsSAFT:AnalysisTypeTableEntry>
+
+    </nsSAFT:AnalysisTypeTable>
+
+    <nsSAFT:MovementTypeTable>
+
+      <nsSAFT:MovementTypeTableEntry>
+
+        <nsSAFT:MovementType>1</nsSAFT:MovementType>
+
+        <nsSAFT:Description>1</nsSAFT:Description>
+
+      </nsSAFT:MovementTypeTableEntry>
+
+    </nsSAFT:MovementTypeTable>
+
+    <nsSAFT:Products>
+
+      <nsSAFT:Product>
+
+        <nsSAFT:ProductCode>23</nsSAFT:ProductCode>
+
+        <nsSAFT:GoodsServicesID>01</nsSAFT:GoodsServicesID>
+
+        <nsSAFT:ProductGroup>23</nsSAFT:ProductGroup>
+
+        <nsSAFT:Description>XXXXX</nsSAFT:Description>
+
+        <nsSAFT:ProductCommodityCode>XXXXXXXX</nsSAFT:ProductCommodityCode>
+
+        <nsSAFT:ProductNumberCode>XXXXXXXX</nsSAFT:ProductNumberCode>
+
+        <nsSAFT:ValuationMethod>FIFO</nsSAFT:ValuationMethod>
+
+        <nsSAFT:UOMBase>TNE</nsSAFT:UOMBase>
+
+        <nsSAFT:UOMStandard>TNE</nsSAFT:UOMStandard>
+
+        <nsSAFT:UOMToUOMBaseConversionFactor>1</nsSAFT:UOMToUOMBaseConversionFactor>
+
+        <nsSAFT:Tax>
+
+          <nsSAFT:TaxType>TNE</nsSAFT:TaxType>
+
+          <nsSAFT:TaxCode>TNE</nsSAFT:TaxCode>
+
+        </nsSAFT:Tax>
+
+      </nsSAFT:Product>
+
+    </nsSAFT:Products>
+
+    <nsSAFT:PhysicalStock>
+
+      <nsSAFT:PhysicalStockEntry>
+
+        <nsSAFT:WarehouseID>aaa</nsSAFT:WarehouseID>
+
+        <nsSAFT:LocationID>aaa</nsSAFT:LocationID>
+
+        <nsSAFT:ProductCode>aaa</nsSAFT:ProductCode>
+
+        <nsSAFT:StockAccountNo>aaa</nsSAFT:StockAccountNo>
+
+        <nsSAFT:ProductType>aaa</nsSAFT:ProductType>
+
+        <nsSAFT:ProductStatus>aaa</nsSAFT:ProductStatus>
+
+        <nsSAFT:StockAccountCommodityCode>aaa</nsSAFT:StockAccountCommodityCode>
+
+        <nsSAFT:OwnerID>aaa</nsSAFT:OwnerID>
+
+        <nsSAFT:UOMPhysicalStock>aaa</nsSAFT:UOMPhysicalStock>
+
+        <nsSAFT:UOMToUOMBaseConversionFactor>aaa</nsSAFT:UOMToUOMBaseConversionFactor>
+
+        <nsSAFT:UnitPrice>aaa</nsSAFT:UnitPrice>
+
+        <nsSAFT:OpeningStockQuantity>aaa</nsSAFT:OpeningStockQuantity>
+
+        <nsSAFT:OpeningStockValue>aaa</nsSAFT:OpeningStockValue>
+
+        <nsSAFT:ClosingStockQuantity>aaa</nsSAFT:ClosingStockQuantity>
+
+        <nsSAFT:ClosingStockValue>aaa</nsSAFT:ClosingStockValue>
+
+        <nsSAFT:StockCharacteristics>
+
+          <nsSAFT:StockCharacteristic>bbb</nsSAFT:StockCharacteristic>
+
+          <nsSAFT:StockCharacteristicValue>bbb</nsSAFT:StockCharacteristicValue>
+
+        </nsSAFT:StockCharacteristics>
+
+      </nsSAFT:PhysicalStockEntry>
+
+    </nsSAFT:PhysicalStock>
+
+    <nsSAFT:Owners>
+
+      <nsSAFT:Owner>
+
+        <nsSAFT:CompanyStructure>
+
+          <nsSAFT:RegistrationNumber>XXXXXXXXX</nsSAFT:RegistrationNumber>
+
+          <nsSAFT:Name>XXXXXX</nsSAFT:Name>
+
+          <nsSAFT:Address>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:Address>
+
+          <nsSAFT:TaxRegistration>
+
+            <nsSAFT:TaxRegistrationNumber>XXXX</nsSAFT:TaxRegistrationNumber>
+
+            <nsSAFT:TaxType>XXXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxNumber>XXXX</nsSAFT:TaxNumber>
+
+            <nsSAFT:TaxAuthority>ANAF</nsSAFT:TaxAuthority>
+
+            <nsSAFT:TaxVerificationDate>xxx</nsSAFT:TaxVerificationDate>
+
+          </nsSAFT:TaxRegistration>
+
+        </nsSAFT:CompanyStructure>
+
+        <nsSAFT:OwnerID>fffff</nsSAFT:OwnerID>
+
+        <nsSAFT:AccountID>hhhh</nsSAFT:AccountID>
+
+      </nsSAFT:Owner>
+
+    </nsSAFT:Owners>
+
+    <nsSAFT:Assets>
+
+      <nsSAFT:Asset>
+
+        <nsSAFT:AssetID>fffff</nsSAFT:AssetID>
+
+        <nsSAFT:AccountID>hhhh</nsSAFT:AccountID>
+
+        <nsSAFT:Description>hhhh</nsSAFT:Description>
+
+        <nsSAFT:AssetSupplier>
+
+          <nsSAFT:SupplierName>xxxx</nsSAFT:SupplierName>
+
+          <nsSAFT:SupplierID>xxxx</nsSAFT:SupplierID>
+
+          <nsSAFT:PostalAddress>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:PostalAddress>
+
+        </nsSAFT:AssetSupplier>
+
+        <nsSAFT:PurchaseOrderDate>hhhh</nsSAFT:PurchaseOrderDate>
+
+        <nsSAFT:DateOfAcquisition>mmm</nsSAFT:DateOfAcquisition>
+
+        <nsSAFT:StartUpDate>hhhh</nsSAFT:StartUpDate>
+
+        <nsSAFT:Valuations>
+
+          <nsSAFT:Valuation>
+
+            <nsSAFT:AssetValuationType>hhhh</nsSAFT:AssetValuationType>
+
+            <nsSAFT:ValuationClass>hhhh</nsSAFT:ValuationClass>
+
+            <nsSAFT:AcquisitionAndProductionCostsBegin>hhhh</nsSAFT:AcquisitionAndProductionCostsBegin>
+
+            <nsSAFT:AcquisitionAndProductionCostsEnd>hhhh</nsSAFT:AcquisitionAndProductionCostsEnd>
+
+            <nsSAFT:InvestmentSupport>hhhh</nsSAFT:InvestmentSupport>
+
+            <nsSAFT:AssetLifeYear>hhhh</nsSAFT:AssetLifeYear>
+
+            <nsSAFT:AssetLifeMonth>hhhh</nsSAFT:AssetLifeMonth>
+
+            <nsSAFT:AssetAddition>hhhh</nsSAFT:AssetAddition>
+
+            <nsSAFT:Transfers>hhhh</nsSAFT:Transfers>
+
+            <nsSAFT:AssetDisposal>hhhh</nsSAFT:AssetDisposal>
+
+            <nsSAFT:BookValueBegin>hhhh</nsSAFT:BookValueBegin>
+
+            <nsSAFT:DepreciationMethod>hhhh</nsSAFT:DepreciationMethod>
+
+            <nsSAFT:DepreciationPercentage>hhhh</nsSAFT:DepreciationPercentage>
+
+            <nsSAFT:DepreciationForPeriod>hhhh</nsSAFT:DepreciationForPeriod>
+
+            <nsSAFT:AppreciationForPeriod>hhhh</nsSAFT:AppreciationForPeriod>
+
+            <nsSAFT:ExtraordinaryDepreciationsForPeriod>
+
+              <nsSAFT:ExtraordinaryDepreciationForPeriod>
+
+                <nsSAFT:ExtraordinaryDepreciationMethod>hhhh</nsSAFT:ExtraordinaryDepreciationMethod>
+
+                <nsSAFT:ExtraordinaryDepreciationAmountForPeriod>hhhh</nsSAFT:ExtraordinaryDepreciationAmountForPeriod>
+
+              </nsSAFT:ExtraordinaryDepreciationForPeriod>
+
+            </nsSAFT:ExtraordinaryDepreciationsForPeriod>
+
+            <nsSAFT:AccumulatedDepreciation>hhhh</nsSAFT:AccumulatedDepreciation>
+
+            <nsSAFT:BookValueEnd>hhhh</nsSAFT:BookValueEnd>
+
+          </nsSAFT:Valuation>
+
+        </nsSAFT:Valuations>
+
+      </nsSAFT:Asset>
+
+    </nsSAFT:Assets>
+
+  </nsSAFT:MasterFiles>
+
+  <nsSAFT:GeneralLedgerEntries>
+
+    <nsSAFT:NumberOfEntries>1929</nsSAFT:NumberOfEntries>
+
+    <nsSAFT:TotalDebit>30.98</nsSAFT:TotalDebit>
+
+    <nsSAFT:TotalCredit>30.98</nsSAFT:TotalCredit>
+
+    <nsSAFT:Journal>
+
+      <nsSAFT:JournalID>1</nsSAFT:JournalID>
+
+      <nsSAFT:Description>Intrari pe facturi</nsSAFT:Description>
+
+      <nsSAFT:Type>1</nsSAFT:Type>
+
+      <nsSAFT:Transaction>
+
+        <nsSAFT:TransactionID>1.25.6026</nsSAFT:TransactionID>
+
+        <nsSAFT:Period>1</nsSAFT:Period>
+
+        <nsSAFT:PeriodYear>2025</nsSAFT:PeriodYear>
+
+        <nsSAFT:TransactionDate>2025-01-08</nsSAFT:TransactionDate>
+
+        <nsSAFT:SourceID>1</nsSAFT:SourceID>
+
+        <nsSAFT:TransactionType>1</nsSAFT:TransactionType>
+
+        <nsSAFT:Description>Receptie: Factura fiscala XXXXXX/08.01.2025</nsSAFT:Description>
+
+        <nsSAFT:SystemEntryDate>2025-01-08</nsSAFT:SystemEntryDate>
+
+        <nsSAFT:GLPostingDate>2025-01-08</nsSAFT:GLPostingDate>
+
+        <nsSAFT:CustomerID>0</nsSAFT:CustomerID>
+
+        <nsSAFT:SupplierID>00XXXXX5</nsSAFT:SupplierID>
+
+        <nsSAFT:SystemID>XXXX</nsSAFT:SystemID>
+
+        <nsSAFT:TransactionLine>
+
+          <nsSAFT:RecordID>XXXXX</nsSAFT:RecordID>
+
+          <nsSAFT:AccountID>401</nsSAFT:AccountID>
+
+          <nsSAFT:SourceDocumentID>XXXXXX</nsSAFT:SourceDocumentID>
+
+          <nsSAFT:CustomerID>0</nsSAFT:CustomerID>
+
+          <nsSAFT:SupplierID>XXXXXX</nsSAFT:SupplierID>
+
+          <nsSAFT:Description>Cheltuieli</nsSAFT:Description>
+
+          <nsSAFT:CreditAmount>
+
+            <nsSAFT:Amount>2.12</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+          </nsSAFT:CreditAmount>
+
+          <nsSAFT:TaxInformation>
+
+            <nsSAFT:TaxType>XXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxCode>XXXX</nsSAFT:TaxCode>
+
+            <nsSAFT:TaxPercentage>XXXX</nsSAFT:TaxPercentage>
+
+            <nsSAFT:TaxBase>XXXX</nsSAFT:TaxBase>
+
+            <nsSAFT:TaxBaseDescription>XXXX</nsSAFT:TaxBaseDescription>
+
+            <nsSAFT:TaxAmount>
+
+              <nsSAFT:Amount>0</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:TaxAmount>
+
+            <nsSAFT:TaxExemptionReason>XXXX</nsSAFT:TaxExemptionReason>
+
+            <nsSAFT:TaxDeclarationPeriod>XXXX</nsSAFT:TaxDeclarationPeriod>
+
+          </nsSAFT:TaxInformation>
+
+        </nsSAFT:TransactionLine>
+
+      </nsSAFT:Transaction>
+
+    </nsSAFT:Journal>
+
+  </nsSAFT:GeneralLedgerEntries>
+
+  <nsSAFT:SourceDocuments>
+
+    <nsSAFT:SalesInvoices>
+
+      <nsSAFT:NumberOfEntries>11</nsSAFT:NumberOfEntries>
+
+      <nsSAFT:TotalDebit>0</nsSAFT:TotalDebit>
+
+      <nsSAFT:TotalCredit>XXXXXX</nsSAFT:TotalCredit>
+
+      <nsSAFT:Invoice>
+
+        <nsSAFT:InvoiceNo>4310</nsSAFT:InvoiceNo>
+
+        <nsSAFT:CustomerInfo>
+
+          <nsSAFT:CustomerID>XXXXXX</nsSAFT:CustomerID>
+
+          <nsSAFT:Name>XXXXXX</nsSAFT:Name>
+
+          <nsSAFT:BillingAddress>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:BillingAddress>
+
+        </nsSAFT:CustomerInfo>
+
+        <nsSAFT:AccountID>4111</nsSAFT:AccountID>
+
+        <nsSAFT:BranchStoreNumber>401</nsSAFT:BranchStoreNumber>
+
+        <nsSAFT:Period>1</nsSAFT:Period>
+
+        <nsSAFT:PeriodYear>2025</nsSAFT:PeriodYear>
+
+        <nsSAFT:InvoiceDate>2025-01-08</nsSAFT:InvoiceDate>
+
+        <nsSAFT:InvoiceType>380</nsSAFT:InvoiceType>
+
+        <nsSAFT:ShipTo>
+
+          <nsSAFT:DeliveryDate>380</nsSAFT:DeliveryDate>
+
+          <nsSAFT:DeliveryID>380</nsSAFT:DeliveryID>
+
+          <nsSAFT:WarehouseID>380</nsSAFT:WarehouseID>
+
+          <nsSAFT:LocationID>380</nsSAFT:LocationID>
+
+          <nsSAFT:UCR>380</nsSAFT:UCR>
+
+          <nsSAFT:Address>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:Address>
+
+        </nsSAFT:ShipTo>
+
+        <nsSAFT:SelfBillingIndicator>0</nsSAFT:SelfBillingIndicator>
+
+        <nsSAFT:InvoiceLine>
+
+          <nsSAFT:LineNumber>1</nsSAFT:LineNumber>
+
+          <nsSAFT:AccountID>7581</nsSAFT:AccountID>
+
+          <nsSAFT:Analysis>
+
+            <nsSAFT:AnalysisType>7581</nsSAFT:AnalysisType>
+
+            <nsSAFT:AnalysisID>7581</nsSAFT:AnalysisID>
+
+            <nsSAFT:AnalysisAmount>
+
+              <nsSAFT:Amount>XXX.34</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>XXX.34</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:AnalysisAmount>
+
+          </nsSAFT:Analysis>
+
+          <nsSAFT:OrderReferences>
+
+            <nsSAFT:OriginatingON>1</nsSAFT:OriginatingON>
+
+            <nsSAFT:OrderDate>1</nsSAFT:OrderDate>
+
+          </nsSAFT:OrderReferences>
+
+          <nsSAFT:ShipTo>
+
+            <nsSAFT:DeliveryDate>380</nsSAFT:DeliveryDate>
+
+            <nsSAFT:DeliveryID>380</nsSAFT:DeliveryID>
+
+            <nsSAFT:WarehouseID>380</nsSAFT:WarehouseID>
+
+            <nsSAFT:LocationID>380</nsSAFT:LocationID>
+
+            <nsSAFT:UCR>380</nsSAFT:UCR>
+
+            <nsSAFT:Address>
+
+              <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+              <nsSAFT:Number>XX</nsSAFT:Number>
+
+              <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+              <nsSAFT:Building>XX</nsSAFT:Building>
+
+              <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+              <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+              <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+              <nsSAFT:Country>RO</nsSAFT:Country>
+
+              <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+            </nsSAFT:Address>
+
+          </nsSAFT:ShipTo>
+
+          <nsSAFT:GoodsServicesID>1</nsSAFT:GoodsServicesID>
+
+          <nsSAFT:ProductCode>1</nsSAFT:ProductCode>
+
+          <nsSAFT:ProductDescription>1</nsSAFT:ProductDescription>
+
+          <nsSAFT:Delivery>
+
+            <nsSAFT:MovementReference>1</nsSAFT:MovementReference>
+
+            <nsSAFT:DeliveryDate>1</nsSAFT:DeliveryDate>
+
+            <nsSAFT:DeliveryPeriod>
+
+              <nsSAFT:FromDate>1</nsSAFT:FromDate>
+
+              <nsSAFT:ToDate>1</nsSAFT:ToDate>
+
+            </nsSAFT:DeliveryPeriod>
+
+          </nsSAFT:Delivery>
+
+          <nsSAFT:Quantity>1</nsSAFT:Quantity>
+
+          <nsSAFT:InvoiceUOM>1</nsSAFT:InvoiceUOM>
+
+          <nsSAFT:UOMToUOMBaseConversionFactor>1</nsSAFT:UOMToUOMBaseConversionFactor>
+
+          <nsSAFT:UnitPrice>XXXXX</nsSAFT:UnitPrice>
+
+          <nsSAFT:TaxPointDate>2025-01-08</nsSAFT:TaxPointDate>
+
+          <nsSAFT:References>
+
+            <nsSAFT:CreditNote>
+
+              <nsSAFT:Reference>REFERINTA.. DIN DESPAG</nsSAFT:Reference>
+
+              <nsSAFT:Reason>MOTIV REFERINTA.. DIN DESPAG</nsSAFT:Reason>
+
+            </nsSAFT:CreditNote>
+
+          </nsSAFT:References>
+
+          <nsSAFT:Description>VENITURI DIN DESPAG</nsSAFT:Description>
+
+          <nsSAFT:InvoiceLineAmount>
+
+            <nsSAFT:Amount>XXX.34</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>XXX.34</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+          </nsSAFT:InvoiceLineAmount>
+
+          <nsSAFT:DebitCreditIndicator>C</nsSAFT:DebitCreditIndicator>
+
+          <nsSAFT:ShippingCostsAmount>
+
+            <nsSAFT:Amount>XXX.34</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>XXX.34</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+          </nsSAFT:ShippingCostsAmount>
+
+          <nsSAFT:TaxInformation>
+
+            <nsSAFT:TaxType>XXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxCode>XXXX</nsSAFT:TaxCode>
+
+            <nsSAFT:TaxPercentage>XXXX</nsSAFT:TaxPercentage>
+
+            <nsSAFT:TaxBase>XXXX</nsSAFT:TaxBase>
+
+            <nsSAFT:TaxBaseDescription>XXXX</nsSAFT:TaxBaseDescription>
+
+            <nsSAFT:TaxAmount>
+
+              <nsSAFT:Amount>0</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:TaxAmount>
+
+            <nsSAFT:TaxExemptionReason>XXXX</nsSAFT:TaxExemptionReason>
+
+            <nsSAFT:TaxDeclarationPeriod>XXXX</nsSAFT:TaxDeclarationPeriod>
+
+          </nsSAFT:TaxInformation>
+
+        </nsSAFT:InvoiceLine>
+
+        <nsSAFT:InvoiceSettlement>
+
+          <nsSAFT:SettlementDiscount>102</nsSAFT:SettlementDiscount>
+
+          <nsSAFT:SettlementAmount>
+
+            <nsSAFT:Amount>19</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>19</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>19</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>19</nsSAFT:ExchangeRate>
+
+          </nsSAFT:SettlementAmount>
+
+          <nsSAFT:SettlementDate>19</nsSAFT:SettlementDate>
+
+          <nsSAFT:PaymentMechanism>19</nsSAFT:PaymentMechanism>
+
+        </nsSAFT:InvoiceSettlement>
+
+        <nsSAFT:InvoiceDocumentTotals>
+
+          <nsSAFT:TaxInformationTotals>
+
+            <nsSAFT:TaxType>XXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxCode>XXXX</nsSAFT:TaxCode>
+
+            <nsSAFT:TaxPercentage>XXXX</nsSAFT:TaxPercentage>
+
+            <nsSAFT:TaxBase>XXXX</nsSAFT:TaxBase>
+
+            <nsSAFT:TaxBaseDescription>XXXX</nsSAFT:TaxBaseDescription>
+
+            <nsSAFT:TaxAmount>
+
+              <nsSAFT:Amount>0</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:TaxAmount>
+
+            <nsSAFT:TaxExemptionReason>XXXX</nsSAFT:TaxExemptionReason>
+
+            <nsSAFT:TaxDeclarationPeriod>XXXX</nsSAFT:TaxDeclarationPeriod>
+
+          </nsSAFT:TaxInformationTotals>
+
+          <nsSAFT:ShippingCostsAmountTotal>XXXX</nsSAFT:ShippingCostsAmountTotal>
+
+          <nsSAFT:NetTotal>XXXX</nsSAFT:NetTotal>
+
+          <nsSAFT:GrossTotal>XXXX</nsSAFT:GrossTotal>
+
+        </nsSAFT:InvoiceDocumentTotals>
+
+      </nsSAFT:Invoice>
+
+    </nsSAFT:SalesInvoices>
+
+    <nsSAFT:PurchaseInvoices>
+
+      <nsSAFT:NumberOfEntries>102</nsSAFT:NumberOfEntries>
+
+      <nsSAFT:TotalDebit>16XX.42</nsSAFT:TotalDebit>
+
+      <nsSAFT:TotalCredit>15XX.74</nsSAFT:TotalCredit>
+
+      <nsSAFT:Invoice>
+
+        <nsSAFT:InvoiceNo>XXXX</nsSAFT:InvoiceNo>
+
+        <nsSAFT:SupplierInfo>
+
+          <nsSAFT:SupplierID>XXXX</nsSAFT:SupplierID>
+
+          <nsSAFT:Name>XXXXXX</nsSAFT:Name>
+
+          <nsSAFT:BillingAddress>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:BillingAddress>
+
+        </nsSAFT:SupplierInfo>
+
+        <nsSAFT:AccountID>401</nsSAFT:AccountID>
+
+        <nsSAFT:BranchStoreNumber>401</nsSAFT:BranchStoreNumber>
+
+        <nsSAFT:Period>1</nsSAFT:Period>
+
+        <nsSAFT:PeriodYear>2025</nsSAFT:PeriodYear>
+
+        <nsSAFT:InvoiceDate>2025-01-08</nsSAFT:InvoiceDate>
+
+        <nsSAFT:InvoiceType>380</nsSAFT:InvoiceType>
+
+        <nsSAFT:ShipFrom>
+
+          <nsSAFT:DeliveryDate>380</nsSAFT:DeliveryDate>
+
+          <nsSAFT:DeliveryID>380</nsSAFT:DeliveryID>
+
+          <nsSAFT:WarehouseID>380</nsSAFT:WarehouseID>
+
+          <nsSAFT:LocationID>380</nsSAFT:LocationID>
+
+          <nsSAFT:UCR>380</nsSAFT:UCR>
+
+          <nsSAFT:Address>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:Address>
+
+        </nsSAFT:ShipFrom>
+
+        <nsSAFT:SelfBillingIndicator>0</nsSAFT:SelfBillingIndicator>
+
+        <nsSAFT:InvoiceLine>
+
+          <nsSAFT:LineNumber>1</nsSAFT:LineNumber>
+
+          <nsSAFT:AccountID>7581</nsSAFT:AccountID>
+
+          <nsSAFT:Analysis>
+
+            <nsSAFT:AnalysisType>7581</nsSAFT:AnalysisType>
+
+            <nsSAFT:AnalysisID>7581</nsSAFT:AnalysisID>
+
+            <nsSAFT:AnalysisAmount>
+
+              <nsSAFT:Amount>XXX.34</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>XXX.34</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:AnalysisAmount>
+
+          </nsSAFT:Analysis>
+
+          <nsSAFT:OrderReferences>
+
+            <nsSAFT:OriginatingON>1</nsSAFT:OriginatingON>
+
+            <nsSAFT:OrderDate>1</nsSAFT:OrderDate>
+
+          </nsSAFT:OrderReferences>
+
+          <nsSAFT:ShipTo>
+
+            <nsSAFT:DeliveryDate>380</nsSAFT:DeliveryDate>
+
+            <nsSAFT:DeliveryID>380</nsSAFT:DeliveryID>
+
+            <nsSAFT:WarehouseID>380</nsSAFT:WarehouseID>
+
+            <nsSAFT:LocationID>380</nsSAFT:LocationID>
+
+            <nsSAFT:UCR>380</nsSAFT:UCR>
+
+            <nsSAFT:Address>
+
+              <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+              <nsSAFT:Number>XX</nsSAFT:Number>
+
+              <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+              <nsSAFT:Building>XX</nsSAFT:Building>
+
+              <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+              <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+              <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+              <nsSAFT:Country>RO</nsSAFT:Country>
+
+              <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+            </nsSAFT:Address>
+
+          </nsSAFT:ShipTo>
+
+          <nsSAFT:GoodsServicesID>1</nsSAFT:GoodsServicesID>
+
+          <nsSAFT:ProductCode>1</nsSAFT:ProductCode>
+
+          <nsSAFT:ProductDescription>1</nsSAFT:ProductDescription>
+
+          <nsSAFT:Delivery>
+
+            <nsSAFT:MovementReference>1</nsSAFT:MovementReference>
+
+            <nsSAFT:DeliveryDate>1</nsSAFT:DeliveryDate>
+
+            <nsSAFT:DeliveryPeriod>
+
+              <nsSAFT:FromDate>1</nsSAFT:FromDate>
+
+              <nsSAFT:ToDate>1</nsSAFT:ToDate>
+
+            </nsSAFT:DeliveryPeriod>
+
+          </nsSAFT:Delivery>
+
+          <nsSAFT:Quantity>1</nsSAFT:Quantity>
+
+          <nsSAFT:InvoiceUOM>1</nsSAFT:InvoiceUOM>
+
+          <nsSAFT:UOMToUOMBaseConversionFactor>1</nsSAFT:UOMToUOMBaseConversionFactor>
+
+          <nsSAFT:UnitPrice>XXXXX</nsSAFT:UnitPrice>
+
+          <nsSAFT:TaxPointDate>2025-01-08</nsSAFT:TaxPointDate>
+
+          <nsSAFT:References>
+
+            <nsSAFT:CreditNote>
+
+              <nsSAFT:Reference>REFERINTA.. DIN DESPAG</nsSAFT:Reference>
+
+              <nsSAFT:Reason>MOTIV REFERINTA.. DIN DESPAG</nsSAFT:Reason>
+
+            </nsSAFT:CreditNote>
+
+          </nsSAFT:References>
+
+          <nsSAFT:Description>VENITURI DIN DESPAG</nsSAFT:Description>
+
+          <nsSAFT:InvoiceLineAmount>
+
+            <nsSAFT:Amount>XXX.34</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>XXX.34</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+          </nsSAFT:InvoiceLineAmount>
+
+          <nsSAFT:DebitCreditIndicator>C</nsSAFT:DebitCreditIndicator>
+
+          <nsSAFT:ShippingCostsAmount>
+
+            <nsSAFT:Amount>XXX.34</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>XXX.34</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+          </nsSAFT:ShippingCostsAmount>
+
+          <nsSAFT:TaxInformation>
+
+            <nsSAFT:TaxType>XXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxCode>XXXX</nsSAFT:TaxCode>
+
+            <nsSAFT:TaxPercentage>XXXX</nsSAFT:TaxPercentage>
+
+            <nsSAFT:TaxBase>XXXX</nsSAFT:TaxBase>
+
+            <nsSAFT:TaxBaseDescription>XXXX</nsSAFT:TaxBaseDescription>
+
+            <nsSAFT:TaxAmount>
+
+              <nsSAFT:Amount>0</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:TaxAmount>
+
+            <nsSAFT:TaxExemptionReason>XXXX</nsSAFT:TaxExemptionReason>
+
+            <nsSAFT:TaxDeclarationPeriod>XXXX</nsSAFT:TaxDeclarationPeriod>
+
+          </nsSAFT:TaxInformation>
+
+        </nsSAFT:InvoiceLine>
+
+        <nsSAFT:InvoiceSettlement>
+
+          <nsSAFT:SettlementDiscount>102</nsSAFT:SettlementDiscount>
+
+          <nsSAFT:SettlementAmount>
+
+            <nsSAFT:Amount>19</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>19</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>19</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>19</nsSAFT:ExchangeRate>
+
+          </nsSAFT:SettlementAmount>
+
+          <nsSAFT:SettlementDate>19</nsSAFT:SettlementDate>
+
+          <nsSAFT:PaymentMechanism>19</nsSAFT:PaymentMechanism>
+
+        </nsSAFT:InvoiceSettlement>
+
+        <nsSAFT:InvoiceDocumentTotals>
+
+          <nsSAFT:TaxInformationTotals>
+
+            <nsSAFT:TaxType>XXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxCode>XXXX</nsSAFT:TaxCode>
+
+            <nsSAFT:TaxPercentage>XXXX</nsSAFT:TaxPercentage>
+
+            <nsSAFT:TaxBase>XXXX</nsSAFT:TaxBase>
+
+            <nsSAFT:TaxBaseDescription>XXXX</nsSAFT:TaxBaseDescription>
+
+            <nsSAFT:TaxAmount>
+
+              <nsSAFT:Amount>0</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:TaxAmount>
+
+            <nsSAFT:TaxExemptionReason>XXXX</nsSAFT:TaxExemptionReason>
+
+            <nsSAFT:TaxDeclarationPeriod>XXXX</nsSAFT:TaxDeclarationPeriod>
+
+          </nsSAFT:TaxInformationTotals>
+
+          <nsSAFT:ShippingCostsAmountTotal>XXXX</nsSAFT:ShippingCostsAmountTotal>
+
+          <nsSAFT:NetTotal>XXXX</nsSAFT:NetTotal>
+
+          <nsSAFT:GrossTotal>XXXX</nsSAFT:GrossTotal>
+
+        </nsSAFT:InvoiceDocumentTotals>
+
+      </nsSAFT:Invoice>
+
+    </nsSAFT:PurchaseInvoices>
+
+    <nsSAFT:Payments>
+
+      <nsSAFT:NumberOfEntries>337</nsSAFT:NumberOfEntries>
+
+      <nsSAFT:TotalDebit>13XXX35</nsSAFT:TotalDebit>
+
+      <nsSAFT:TotalCredit>43XX.67</nsSAFT:TotalCredit>
+
+      <nsSAFT:Payment>
+
+        <nsSAFT:PaymentRefNo>XXX</nsSAFT:PaymentRefNo>
+
+        <nsSAFT:Period>1</nsSAFT:Period>
+
+        <nsSAFT:PeriodYear>2025</nsSAFT:PeriodYear>
+
+        <nsSAFT:TransactionID>2025</nsSAFT:TransactionID>
+
+        <nsSAFT:TransactionDate>2025-01-03</nsSAFT:TransactionDate>
+
+        <nsSAFT:PaymentMethod>03</nsSAFT:PaymentMethod>
+
+        <nsSAFT:Description>Plata furnizor</nsSAFT:Description>
+
+        <nsSAFT:BatchID>XXXX</nsSAFT:BatchID>
+
+        <nsSAFT:SystemID>XXXX</nsSAFT:SystemID>
+
+        <nsSAFT:SourceID>XXXX</nsSAFT:SourceID>
+
+        <nsSAFT:PaymentLine>
+
+          <nsSAFT:LineNumber>1</nsSAFT:LineNumber>
+
+          <nsSAFT:SourceDocumentID>1</nsSAFT:SourceDocumentID>
+
+          <nsSAFT:AccountID>403</nsSAFT:AccountID>
+
+          <nsSAFT:Analysis>
+
+            <nsSAFT:AnalysisType>7581</nsSAFT:AnalysisType>
+
+            <nsSAFT:AnalysisID>7581</nsSAFT:AnalysisID>
+
+            <nsSAFT:AnalysisAmount>
+
+              <nsSAFT:Amount>XXX.34</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>XXX.34</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:AnalysisAmount>
+
+          </nsSAFT:Analysis>
+
+          <nsSAFT:CustomerID>0</nsSAFT:CustomerID>
+
+          <nsSAFT:SupplierID>XXXX</nsSAFT:SupplierID>
+
+          <nsSAFT:TaxPointDate>XXXX</nsSAFT:TaxPointDate>
+
+          <nsSAFT:Description>BO/424265/21.11.202</nsSAFT:Description>
+
+          <nsSAFT:DebitCreditIndicator>C</nsSAFT:DebitCreditIndicator>
+
+          <nsSAFT:PaymentLineAmount>
+
+            <nsSAFT:Amount>XXXX.92</nsSAFT:Amount>
+
+            <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+            <nsSAFT:CurrencyAmount>XXXXX.92</nsSAFT:CurrencyAmount>
+
+            <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+          </nsSAFT:PaymentLineAmount>
+
+          <nsSAFT:TaxInformation>
+
+            <nsSAFT:TaxType>000</nsSAFT:TaxType>
+
+            <nsSAFT:TaxCode>000000</nsSAFT:TaxCode>
+
+            <nsSAFT:TaxPercentage>000000</nsSAFT:TaxPercentage>
+
+            <nsSAFT:TaxBase>0</nsSAFT:TaxBase>
+
+            <nsSAFT:TaxBaseDescription>0</nsSAFT:TaxBaseDescription>
+
+            <nsSAFT:TaxAmount>
+
+              <nsSAFT:Amount>0</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:TaxAmount>
+
+            <nsSAFT:TaxExemptionReason>0</nsSAFT:TaxExemptionReason>
+
+            <nsSAFT:TaxDeclarationPeriod>0</nsSAFT:TaxDeclarationPeriod>
+
+          </nsSAFT:TaxInformation>
+
+        </nsSAFT:PaymentLine>
+
+      </nsSAFT:Payment>
+
+    </nsSAFT:Payments>
+
+    <nsSAFT:MovementOfGoods>
+
+      <nsSAFT:NumberOfMovementLines>1</nsSAFT:NumberOfMovementLines>
+
+      <nsSAFT:TotalQuantityReceived>1</nsSAFT:TotalQuantityReceived>
+
+      <nsSAFT:TotalQuantityIssued>1</nsSAFT:TotalQuantityIssued>
+
+      <nsSAFT:StockMovement>
+
+        <nsSAFT:MovementReference>1</nsSAFT:MovementReference>
+
+        <nsSAFT:MovementDate>1</nsSAFT:MovementDate>
+
+        <nsSAFT:MovementPostingDate>1</nsSAFT:MovementPostingDate>
+
+        <nsSAFT:MovementPostingTime>1</nsSAFT:MovementPostingTime>
+
+        <nsSAFT:TaxPointDate>1</nsSAFT:TaxPointDate>
+
+        <nsSAFT:MovementType>1</nsSAFT:MovementType>
+
+        <nsSAFT:SourceID>1</nsSAFT:SourceID>
+
+        <nsSAFT:SystemID>1</nsSAFT:SystemID>
+
+        <nsSAFT:DocumentReference>
+
+          <nsSAFT:DocumentType>1</nsSAFT:DocumentType>
+
+          <nsSAFT:DocumentNumber>1</nsSAFT:DocumentNumber>
+
+          <nsSAFT:DocumentLine>1</nsSAFT:DocumentLine>
+
+        </nsSAFT:DocumentReference>
+
+        <nsSAFT:StockMovementLine>
+
+          <nsSAFT:LineNumber>1</nsSAFT:LineNumber>
+
+          <nsSAFT:AccountID>1</nsSAFT:AccountID>
+
+          <nsSAFT:TransactionID>1</nsSAFT:TransactionID>
+
+          <nsSAFT:CustomerID>1</nsSAFT:CustomerID>
+
+          <nsSAFT:SupplierID>1</nsSAFT:SupplierID>
+
+          <nsSAFT:ShipTo>
+
+            <nsSAFT:DeliveryDate>380</nsSAFT:DeliveryDate>
+
+            <nsSAFT:DeliveryID>380</nsSAFT:DeliveryID>
+
+            <nsSAFT:WarehouseID>380</nsSAFT:WarehouseID>
+
+            <nsSAFT:LocationID>380</nsSAFT:LocationID>
+
+            <nsSAFT:UCR>380</nsSAFT:UCR>
+
+            <nsSAFT:Address>
+
+              <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+              <nsSAFT:Number>XX</nsSAFT:Number>
+
+              <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+              <nsSAFT:Building>XX</nsSAFT:Building>
+
+              <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+              <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+              <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+              <nsSAFT:Country>RO</nsSAFT:Country>
+
+              <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+            </nsSAFT:Address>
+
+          </nsSAFT:ShipTo>
+
+          <nsSAFT:ShipFrom>
+
+            <nsSAFT:DeliveryDate>380</nsSAFT:DeliveryDate>
+
+            <nsSAFT:DeliveryID>380</nsSAFT:DeliveryID>
+
+            <nsSAFT:WarehouseID>380</nsSAFT:WarehouseID>
+
+            <nsSAFT:LocationID>380</nsSAFT:LocationID>
+
+            <nsSAFT:UCR>380</nsSAFT:UCR>
+
+            <nsSAFT:Address>
+
+              <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+              <nsSAFT:Number>XX</nsSAFT:Number>
+
+              <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+              <nsSAFT:Building>XX</nsSAFT:Building>
+
+              <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+              <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+              <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+              <nsSAFT:Country>RO</nsSAFT:Country>
+
+              <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+            </nsSAFT:Address>
+
+          </nsSAFT:ShipFrom>
+
+          <nsSAFT:ProductCode>1</nsSAFT:ProductCode>
+
+          <nsSAFT:StockAccountNo>1</nsSAFT:StockAccountNo>
+
+          <nsSAFT:Quantity>1</nsSAFT:Quantity>
+
+          <nsSAFT:UnitOfMeasure>1</nsSAFT:UnitOfMeasure>
+
+          <nsSAFT:UOMToUOMPhysicalStockConversionFactor>1</nsSAFT:UOMToUOMPhysicalStockConversionFactor>
+
+          <nsSAFT:BookValue>1</nsSAFT:BookValue>
+
+          <nsSAFT:MovementSubType>1</nsSAFT:MovementSubType>
+
+          <nsSAFT:MovementComments>1</nsSAFT:MovementComments>
+
+          <nsSAFT:TaxInformation>
+
+            <nsSAFT:TaxType>XXX</nsSAFT:TaxType>
+
+            <nsSAFT:TaxCode>XXXX</nsSAFT:TaxCode>
+
+            <nsSAFT:TaxPercentage>XXXX</nsSAFT:TaxPercentage>
+
+            <nsSAFT:TaxBase>XXXX</nsSAFT:TaxBase>
+
+            <nsSAFT:TaxBaseDescription>XXXX</nsSAFT:TaxBaseDescription>
+
+            <nsSAFT:TaxAmount>
+
+              <nsSAFT:Amount>0</nsSAFT:Amount>
+
+              <nsSAFT:CurrencyCode>RON</nsSAFT:CurrencyCode>
+
+              <nsSAFT:CurrencyAmount>0</nsSAFT:CurrencyAmount>
+
+              <nsSAFT:ExchangeRate>1</nsSAFT:ExchangeRate>
+
+            </nsSAFT:TaxAmount>
+
+            <nsSAFT:TaxExemptionReason>XXXX</nsSAFT:TaxExemptionReason>
+
+            <nsSAFT:TaxDeclarationPeriod>XXXX</nsSAFT:TaxDeclarationPeriod>
+
+          </nsSAFT:TaxInformation>
+
+        </nsSAFT:StockMovementLine>
+
+      </nsSAFT:StockMovement>
+
+    </nsSAFT:MovementOfGoods>
+
+    <nsSAFT:AssetTransactions>
+
+      <nsSAFT:NumberOfAssetTransactions>1</nsSAFT:NumberOfAssetTransactions>
+
+      <nsSAFT:AssetTransaction>
+
+        <nsSAFT:AssetTransactionID>1</nsSAFT:AssetTransactionID>
+
+        <nsSAFT:AssetID>1</nsSAFT:AssetID>
+
+        <nsSAFT:AssetTransactionType>1</nsSAFT:AssetTransactionType>
+
+        <nsSAFT:Description>1</nsSAFT:Description>
+
+        <nsSAFT:AssetTransactionDate>1</nsSAFT:AssetTransactionDate>
+
+        <nsSAFT:AssetSupplier>
+
+          <nsSAFT:SupplierName>1</nsSAFT:SupplierName>
+
+          <nsSAFT:SupplierID>1</nsSAFT:SupplierID>
+
+          <nsSAFT:PostalAddress>
+
+            <nsSAFT:StreetName>XXXXXXXXXXX</nsSAFT:StreetName>
+
+            <nsSAFT:Number>XX</nsSAFT:Number>
+
+            <nsSAFT:AdditionalAddressDetail>XX</nsSAFT:AdditionalAddressDetail>
+
+            <nsSAFT:Building>XX</nsSAFT:Building>
+
+            <nsSAFT:City>ALBA IULIA</nsSAFT:City>
+
+            <nsSAFT:PostalCode>XXXXXXX</nsSAFT:PostalCode>
+
+            <nsSAFT:Region>RO-AB</nsSAFT:Region>
+
+            <nsSAFT:Country>RO</nsSAFT:Country>
+
+            <nsSAFT:AddressType>PostalAddress</nsSAFT:AddressType>
+
+          </nsSAFT:PostalAddress>
+
+        </nsSAFT:AssetSupplier>
+
+        <nsSAFT:TransactionID>fff</nsSAFT:TransactionID>
+
+        <nsSAFT:AssetTransactionValuations>
+
+          <nsSAFT:AssetTransactionValuation>
+
+            <nsSAFT:AssetValuationType>fff</nsSAFT:AssetValuationType>
+
+            <nsSAFT:AcquisitionAndProductionCostsOnTransaction>fff</nsSAFT:AcquisitionAndProductionCostsOnTransaction>
+
+            <nsSAFT:BookValueOnTransaction>fff</nsSAFT:BookValueOnTransaction>
+
+            <nsSAFT:AssetTransactionAmount>fff</nsSAFT:AssetTransactionAmount>
+
+          </nsSAFT:AssetTransactionValuation>
+
+        </nsSAFT:AssetTransactionValuations>
+
+      </nsSAFT:AssetTransaction>
+
+    </nsSAFT:AssetTransactions>
+
+  </nsSAFT:SourceDocuments>
+
+</nsSAFT:AuditFile>

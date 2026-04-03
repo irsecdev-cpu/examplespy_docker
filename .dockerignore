@@ -1,0 +1,33 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local configuration and secrets
+.env
+.vscode/
+.idea/
+
+# Project artifacts (avoiding large zips in the image)
+*.zip
+*.rar
+report.html
+output.png
+output.xlsx
+
+# Docker files (not needed inside the container)
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation
+README.md
+CONTRIBUTING.md
+LICENSE
